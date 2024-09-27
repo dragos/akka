@@ -1,8 +1,8 @@
 resolvers += Classpaths.typesafeResolver
 
-// need this to resolve http://jcenter.bintray.com/org/jenkins-ci/jenkins/1.26/
+// need this to resolve https://repo.jenkins-ci.org/public/org/jenkins-ci/jenkins/1.26/
 // which is used by plugin "org.kohsuke" % "github-api" % "1.68"
-resolvers += "Bintray Jcenter" at "https://jcenter.bintray.com/"
+resolvers += "Jenkins Public Repository" at "https://repo.jenkins-ci.org/public/"
 
 // these comment markers are for including code into the docs
 //#sbt-multi-jvm
